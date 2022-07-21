@@ -717,7 +717,7 @@ iframe {
 .arrow {
     width: 5vw;
     height: 5vw;
-    background-image: url(../reborn/img/arrow.png);
+    background-image: url(./img/arrow.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
