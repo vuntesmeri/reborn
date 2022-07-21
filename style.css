@@ -317,7 +317,6 @@ a:hover {
 }
 
 .img2-text h2 {
-    /* width: 60%; */
     margin: auto 1vw auto 1vw;
     font-family: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 1);
@@ -332,7 +331,6 @@ a:hover {
     color: rgba(255, 255, 255, 1);
     font-size: 1.1vw;
     font-weight: 600;
-    /* width: 28vw; */
 }
 
 .img2-text hr {
@@ -390,9 +388,7 @@ a:hover {
 
 .img2-text hr {
     cursor: pointer;
-
 }
-
 
 .section3-1 {
     width: 100vw;
