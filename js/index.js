@@ -66,16 +66,16 @@ document.addEventListener('mouseover', (event) => {
                             <div class="first-row">
                                 <div class="column">
                                     <label for="GET-prefix">Prefix:</label>
-                                    <input id="GET-prefix" type="text" name="userprefix" class="input prefix">
+                                    <input id="GET-prefix" type="text" name="userprefix" class="input prefix" required>
                                 </div>
                                 <div class="column">
                                     <label for="GET-name">Last Name:</label>
-                                    <input id="GET-name" type="text" name="username" class="input last-name">
+                                    <input id="GET-name" type="text" name="username" class="input last-name" required>
                                 </div>
                             </div>
                             <div class="column">
                                 <label for="GET-email">Email:</label>
-                                <input id="GET-email" type="email" name="userid" class="input email"></input>
+                                <input id="GET-email" type="email" name="userid" class="input email" required></input>
                             </div>
                             <div class="column">
                                 <label for="GET-message">Message:</label>
