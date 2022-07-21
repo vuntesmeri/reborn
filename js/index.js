@@ -240,9 +240,11 @@ function sendreq(event) {
         } if (Array.from(inputButton).some((el) => el.value === '')) {
                event.preventDefault();
             document.querySelector('.attention').innerText = 'Please fill the form'
-            mailButton.addEventListener('click', () => {
-                document.querySelector('.attention').innerText = ''
-            })
+            for (let input of inputButton) {
+                input.addEventListener('click', () => {
+                    document.querySelector('.attention').innerText = ''
+                })
+            }
         }
             // handleSubmit(document.forms.reborn);
             // const form = document.querySelector(".card-items");
@@ -264,12 +266,6 @@ function sendreq(event) {
                     document.querySelector('.attention').innerText = 'Under costruction'
                 } else {
                     card.classList.add('hover');
-                    // console.log(card1);
-                    // const aboutScroll = document.querySelector('.about');
-                    // event.target.closest('SECTION').classList.add('hover');
-                    // document.querySelector('.attention').innerText = `${card1}`;
-                    // window.scrollTo(0, aboutScroll.getBoundingClientRect().y + 1);
-                    // console.log('card', card.classList)
                 }
                 
             } else {
