@@ -52,7 +52,7 @@ document.addEventListener('mouseover', (event) => {
                             </div>
                             <div class="column">
                                 <p>Password:</p>
-                                <input type="password" class="password" placeholder="...............">
+                                <input type="text" class="password" placeholder="...............">
                             </div>
                               <div class="button-row">
                                 <button type="button" class="request">Submit</button>
@@ -182,10 +182,7 @@ head.addEventListener('click', (event) => {
     event.stopPropagation();
     const iconCard = event.target;
     console.log('iconCard', iconCard.closest('DIV[id]'))
-    // if (card.classList[1] === 'hover' && iconCard.closest('DIV[id]')) {
-    //     card.classList.remove('hover');
     window.onscroll = function () {
-        console.log(aboutcoord)
             if (document.documentElement.scrollTop > aboutcoord-5)  {
                 card.classList.add('hover')
             }
