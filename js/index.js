@@ -242,6 +242,7 @@ function sendreq(event) {
             document.querySelector('.attention').innerText = 'Please fill the form'
             for (let input of inputButton) {
                 input.addEventListener('click', () => {
+                    event.preventDefault();
                     document.querySelector('.attention').innerText = ''
                 })
             }
