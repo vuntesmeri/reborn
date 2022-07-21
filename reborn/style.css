@@ -55,7 +55,7 @@ header {
     height: 2vw;
     width: 3vw;
     margin: 0 .5vw;
-    background-image: url("./../img/telephone.png");
+    background-image: url("../reborn/img/telephone.png");
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
@@ -66,7 +66,7 @@ header {
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
-    background-image: url("./../img/keys.png");
+    background-image: url("../reborn/img/keys.png");
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
@@ -77,7 +77,7 @@ header {
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
-    background-image: url("./../img/world.png");
+    background-image: url("../reborn/img/world.png");
     background-repeat: no-repeat;
     background-size: cover;
     align-self: center;
@@ -127,7 +127,7 @@ a:hover {
     margin: 2vw 0vw 0vw 0vw;
     height: 90vh;
     width: 88vw;
-    background-image: url("./../img/globus.jpg");
+    background-image: url("../reborn/img/globus.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -188,7 +188,6 @@ a:hover {
     font-size: 1.3vw;
     font-weight: 600;
     color: #fff;
-    /* color: #ce9704; */
     font-family: 'Montserrat', sans-serif;
     cursor: pointer;
 }
@@ -228,10 +227,8 @@ a:hover {
     padding: auto;
     width: .8vw;
     height: .8vw;
-    /* border: .3vw solid white; */
     border: .3vw solid #ce9704;
     background-color: #ce9704;
-    /* background-color: white; */
     border-radius: 50%;
     cursor: pointer;
 }
@@ -280,7 +277,7 @@ a:hover {
 }
 
 .img1 {
-    background-image: url(./../img/build.jpg);
+    background-image: url(../reborn/img/build.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -348,7 +345,7 @@ a:hover {
 }
 
 .img2-1 {
-    background-image: url(./../img/construction.jpg);
+    background-image: url(../reborn/img/construction.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,7 +356,7 @@ a:hover {
 }
 
 .img2-2 {
-    background-image: url(./../img/realty.jpg);
+    background-image: url(../reborn/img/realty.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -370,7 +367,7 @@ a:hover {
 }
 
 .img2-3 {
-    background-image: url(./../img/franchises.jpg);
+    background-image: url(../reborn/img/franchises.jpg);
     background-position-y: -4vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -381,7 +378,7 @@ a:hover {
 }
 
 .img2-4 {
-    background-image: url(./../img/hospitality.jpg);
+    background-image: url(../reborn/img/hospitality.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,36 +394,12 @@ a:hover {
 }
 
 
-
-/* .glow {
-    width: 1vw;
-    height: 1vw;
-    position: absolute;
-    top: 0px;
-    right: 1000px;
-    background-color: rgb(32, 23, 153);
-    border: 50%;
-    animation: animate 30s infinite;
-}
-
-@keyframes animate {
-    50% {
-        transform: translateX(20%) translateY(20%);
-    }
-
-    60% {
-        transform: translateX(20%) translateY(20%);
-    }
-
-} */
-
 .section3-1 {
     width: 100vw;
-    /* padding: 10vw; */
     height: 47vw;
     filter: invert(1) contrast(1) brightness(2) opacity(150%);
     background-color: #fff;
-    background-image: url(./../img/map.png);
+    background-image: url(../reborn/img/map.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -456,7 +429,7 @@ a:hover {
     padding: 2vw;
     height: 40vw;
     margin: auto;
-    background-image: url(./../img/ceiling.jpg);
+    background-image: url(../reborn/img/ceiling.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -528,7 +501,7 @@ a:hover {
     text-align: center;
     width: 100vw;
     height: 20vw;
-    background-image: url(./../img/ski.jpg);
+    background-image: url(../reborn/img/ski.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -576,7 +549,7 @@ a:hover {
 
 .logo5 {
     margin: 1vw;
-    background-image: url(./../img/logo1.jpg);
+    background-image: url(../reborn/img/logo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -619,7 +592,7 @@ a:hover {
 
 .logo53 {
     margin: 1vw;
-    background-image: url(./../img/logo2.png);
+    background-image: url(../reborn/img/logo2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -664,9 +637,6 @@ a:hover {
 
 iframe {
     box-sizing: content-box;
-    /* height: 54.1vw;
-    max-height: 90vh;
-    width: 96vw; */
     width: 96vw;
     height: 40vw;
     border: none;
@@ -676,7 +646,7 @@ iframe {
     height: 100vh;
     width: 98vw;
     float: right;
-    background-image: url(./../img/ethic.jpg);
+    background-image: url(../reborn/img/ethic.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -747,7 +717,7 @@ iframe {
 .arrow {
     width: 5vw;
     height: 5vw;
-    background-image: url(./../img/arrow.png);
+    background-image: url(../reborn/img/arrow.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -785,7 +755,7 @@ footer .email p {
     margin: 3vw auto 2vw auto;
     height: 10vw;
     width: 10vw;
-    background-image: url(./../img/telephone.png);
+    background-image: url(../reborn/img/telephone.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -795,7 +765,7 @@ footer .email p {
     margin: 3vw auto 2vw auto;
     height: 10vw;
     width: 10vw;
-    background-image: url(./../img/world.png);
+    background-image: url(../reborn/img/world.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -805,7 +775,7 @@ footer .email p {
     margin: 3vw auto 2vw auto;
     height: 8vw;
     width: 8vw;
-    background-image: url(./../img/keys.png);
+    background-image: url(../reborn/img/keys.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -823,7 +793,6 @@ footer .email p {
     .card-items {
         margin: 2vw auto;
         width: 50vw;
-        /* height: 20vw; */
         display: flex;
         flex-direction: column;
         justify-content: space-between;
