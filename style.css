@@ -52,6 +52,8 @@ header {
 }
 
 .icons .phone {
+    /* min-height: 3vh;
+    min-width: 3vh; */
     height: 2vw;
     width: 3vw;
     margin: 0 .5vw;
@@ -63,6 +65,8 @@ header {
 }
 
 .icons .keys {
+    /* min-height: 3vh;
+    min-width: 3vh; */
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
@@ -74,6 +78,8 @@ header {
 }
 
 .icons .planet {
+    /* min-height: 3vh;
+    min-width: 3vh; */
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
@@ -102,7 +108,6 @@ header {
 li {
     list-style: none;
     font-size: 2vw;
-
 }
 
 li a {
@@ -125,7 +130,7 @@ a:hover {
 
 .about {
     margin: 2vw 0vw 0vw 0vw;
-    height: 90vh;
+    height: 90vmin;
     width: 88vw;
     background-image: url(./img/globus.jpg);
     background-position: center;
@@ -143,6 +148,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    min-height: 25vh;
     height: 20vw;
     width: 30vw;
     margin: -2vw 0vw;
@@ -416,14 +422,14 @@ a:hover {
     margin: 0vw;
     padding: 0vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 5vw;
+    font-size: 5vmin;
     font-weight: 800;
 }
 
 .section3-2 {
     width: 100vw;
     padding: 2vw;
-    height: 40vw;
+    height: 30vw;
     margin: auto;
     background-image: url(./img/ceiling.jpg);
     background-position: bottom;
@@ -549,7 +555,7 @@ a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 28vw;
+    height: 100%;
     width: 22vw;
 }
 
@@ -574,7 +580,7 @@ a:hover {
 }
 
 .section5-box3 {
-    margin: 1vw 2vw;
+    margin: 2vw 2vw;
     width: 98vw;
     height: 26vw;
     display: flex;
@@ -634,12 +640,12 @@ a:hover {
 iframe {
     box-sizing: content-box;
     width: 96vw;
-    height: 40vw;
+    height: 40vmax;
     border: none;
 }
 
 .section7-box {
-    height: 100vh;
+    height: 90vw;
     width: 98vw;
     float: right;
     background-image: url(./img/ethic.jpg);
@@ -649,10 +655,10 @@ iframe {
 }
 
 .section7-box h2 {
-    margin: 20vh auto 1vw 30vw;
+    margin: 20vw auto 1vw 30vw;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 6vh;
+    font-size: 6vw;
     font-weight: 800;
     color: #000;
 }
@@ -711,8 +717,8 @@ iframe {
 }
 
 .arrow {
-    width: 5vw;
-    height: 5vw;
+    width: 5vmax;
+    height: 5vmax;
     background-image: url(./img/arrow.png);
     background-position: center;
     background-repeat: no-repeat;
