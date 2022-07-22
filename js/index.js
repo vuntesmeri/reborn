@@ -39,7 +39,17 @@ document.addEventListener('mouseover', (event) => {
         })
     }
 })
-
+document.addEventListener('touchstart', (event) => {
+    if (event.target.classList == 'img2-name') {
+        event.target.classList.add('hover');
+        let hr = event.target.nextElementSibling;
+        hr.nextElementSibling.classList.remove('hover');
+        hr.nextElementSibling.addEventListener('toucmove', () => {
+            hr.nextElementSibling.classList.add('hover');
+            event.target.classList.remove('hover');
+        })
+    }
+})
 function popup(iconCard, card) {
     if (iconCard.classList[0] === 'keys') {
         card.innerHTML = `<div class="keys-icon"></div>
