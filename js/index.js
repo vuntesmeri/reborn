@@ -26,14 +26,16 @@ bab.addEventListener('click', event => {
     }
 }, false)
 
+const image2box = document.querySelector('.img2-1');
+const image2Name = document.querySelector('.img2-name');
 const image2Text = document.querySelector('.img2-text');
-
 document.addEventListener('mouseover', (event) => {
+    console.log('event', event.target)
     if (event.target.classList == 'img2-name') {
         event.target.classList.add('hover');
         let hr = event.target.nextElementSibling;
         hr.nextElementSibling.classList.remove('hover');
-        hr.nextElementSibling.addEventListener('mouseover', () => {
+        hr.nextElementSibling.addEventListener('mouseout', () => {
             hr.nextElementSibling.classList.add('hover');
             event.target.classList.remove('hover');
         })
@@ -44,7 +46,7 @@ document.addEventListener('touchstart', (event) => {
         event.target.classList.add('hover');
         let hr = event.target.nextElementSibling;
         hr.nextElementSibling.classList.remove('hover');
-        hr.nextElementSibling.addEventListener('toucmove', () => {
+        hr.nextElementSibling.addEventListener('touchstart', () => {
             hr.nextElementSibling.classList.add('hover');
             event.target.classList.remove('hover');
         })

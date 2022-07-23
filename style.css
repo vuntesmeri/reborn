@@ -319,7 +319,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    cursor: help;
+    cursor: pointer;
 }
 
 .img2-text h2 {
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .logo5 {
-    margin: 1vw;
+    margin: 0vw 1vw;
     background-image: url(./img/logo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
