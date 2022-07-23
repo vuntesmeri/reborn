@@ -52,8 +52,6 @@ header {
 }
 
 .icons .phone {
-    /* min-height: 3vh;
-    min-width: 3vh; */
     height: 2vw;
     width: 3vw;
     margin: 0 .5vw;
@@ -65,8 +63,6 @@ header {
 }
 
 .icons .keys {
-    /* min-height: 3vh;
-    min-width: 3vh; */
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
@@ -78,8 +74,6 @@ header {
 }
 
 .icons .planet {
-    /* min-height: 3vh;
-    min-width: 3vh; */
     height: 2vw;
     width: 2vw;
     margin: 0 .5vw;
@@ -141,6 +135,8 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .about-box,
 .about-scroll {
@@ -422,7 +418,7 @@ a:hover {
     margin: 0vw;
     padding: 0vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 5vmin;
+    font-size: 5vw;
     font-weight: 800;
 }
 

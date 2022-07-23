@@ -42,6 +42,7 @@ document.addEventListener('mouseover', (event) => {
     }
 })
 document.addEventListener('touchstart', (event) => {
+    event.preventDefault();
     if (event.target.classList == 'img2-name') {
         event.target.classList.add('hover');
         let hr = event.target.nextElementSibling;
