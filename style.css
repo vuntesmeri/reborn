@@ -54,32 +54,32 @@ header {
 .icons .phone {
     height: 2vw;
     width: 3vw;
-    margin: 0 .5vw;
+    margin: auto;
     background-image: url(./img/telephone.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     align-self: center;
     cursor: pointer;
 }
 
 .icons .keys {
     height: 2vw;
-    width: 2vw;
-    margin: 0 .5vw;
+    width: 3vw;
+    margin: auto;
     background-image: url(./img/keys.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     align-self: center;
     cursor: pointer;
 }
 
 .icons .planet {
     height: 2vw;
-    width: 2vw;
-    margin: 0 .5vw;
+    width: 3vw;
+    margin: 0 0vw 0 .8vw;
     background-image: url(./img/world.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     align-self: center;
     cursor: pointer;
 }
